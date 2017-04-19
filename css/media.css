@@ -1,0 +1,135 @@
+@media (max-width: 1024px) {
+	.menu, .search {
+		display: none;
+	}
+	.hamburger-icon {
+		display: block;
+	}
+	.slider__item__header {
+		font-size: 55px;
+	}
+	.wrapper-banner-slider .slick-arrow {
+		display: none;
+	}
+	.slider__item__description,
+	.slider__item__header {
+		padding: 0 15px;
+	}
+	.banner {
+		height: 450px;
+	}
+	.choose-us {
+		margin-top: 50px;
+	}
+	.choose-us__header__header {
+		font-size: 30px;
+	}
+	.choose-us__information {
+		margin-bottom: 15px;
+	}
+	.blocks {
+		margin-bottom: 30px;
+	}
+	.blocks__item > .fa {
+		padding: 15px 0;
+	}
+	.our-products__text {
+		font-size: 30px;
+	}
+	.circle-blocks {
+		padding-top: 80px;
+	}
+	.circle-blocks__left > div:nth-child(2),
+	.circle-blocks__middle > div:nth-child(2), 
+	.circle-blocks__right > div:nth-child(2) {
+		margin-top: 50px;
+	}
+	.our-products__circle-blocks_background {
+		height: 525px;
+	}
+	.slick-dots {
+		bottom: -65px;
+	}
+	.about-us,
+	.skill-progress {
+		margin-top: 35px;
+	}
+	.about-us-information__description {
+		margin-top: 30px;
+	}
+	.about-us-information__text_margin {
+		margin-bottom: 0;
+	}
+	.contact {
+		margin-top: 50px;
+	}
+	.contact__information__text_second {
+		margin-bottom: 35px;
+	}
+}
+@media (max-width: 991px) {
+	.about-us {
+		justify-content: initial;
+		align-items: center;
+		flex-direction: column;
+	}
+	.about-us-information {
+		max-width: initial;
+	}
+	.contact-information {
+		padding-left: 0;
+	}
+	.form {
+		margin-top: 30px;
+	}
+	.contact-main-div {
+		flex-direction: column-reverse;
+   	 	align-items: center;
+    	height: initial;
+    	padding: 15px
+	}
+	.form input, .form textarea {
+		padding: 10px 15px;
+	}
+	.form .form__submit {
+		width: 100px;
+		height: 40px;
+	}
+	.form__label {
+		margin-top: 23px;
+	}
+}
+@media (max-width: 800px) {
+	.circle-blocks__item {
+		justify-content: center;
+	}
+	.footer {
+		flex-direction: column-reverse;
+    	justify-content: center;
+    	align-items: center;
+	}
+	.footer__copyright {
+		display: none;
+	}
+	.about-us-information__text {
+		line-height: 20px;
+	}
+}
+@media (max-width: 550px) {
+	.form__input-text,
+	.form__email {
+		width: 100%;
+	}
+	.form__email {
+		margin-top: 15px;
+		margin-left: 0;
+	}
+	.blocks__item {
+		width: 100%;
+		max-width: inherit;
+		margin-right: 0;
+	}
+	.blocks__item {
+		border: 0;
+	}
+}
